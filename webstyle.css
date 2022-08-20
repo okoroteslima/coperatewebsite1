@@ -1,0 +1,533 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    background-color: #554994;
+    width: auto;
+    height: auto;
+
+}
+nav{
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    color:  grey;
+    justify-content: space-between;
+    padding: 19px 35px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 20px;
+    box-sizing: border-box;
+
+    position: fixed;
+    background-color: white;
+    top: 0;
+    left: 0;
+    
+    
+
+}
+
+#firstnav{ 
+    background-color: black;
+    position: absolute ;
+    top:0;
+    left: 0;
+    z-index: 1;
+}  
+
+
+
+
+ul,li{
+    
+    display: inline;
+    text-decoration: none;
+    
+    
+    
+    
+}
+h1 a{
+    text-decoration: none;
+    color: grey;
+}
+ul li >a{
+    text-decoration: none;
+    color: grey;
+}
+#limalogo{
+    
+    padding-top: 12px;
+}
+#limslogo{
+    padding-top: 12px;
+}
+
+button{
+
+background-color: #554994;
+width: 186px;
+height: 58px;
+padding-top: 1px;
+padding-bottom: 10px;
+margin-bottom: 10px;
+margin-right: 40px;
+border: 1px solid black;
+border-radius: 35px;
+background: linear-gradient( to top right, red 50%,orange);
+color: white;
+font-size: large;
+font-family: 'Quicksand', sans-serif;
+font-weight: bold;
+text-decoration: none;
+
+
+
+
+
+}
+button a{
+    text-decoration: none;
+}
+#secondnav button{
+    background: none;
+    background-color: white;
+    color: black;
+}
+#startbutton{
+    background: none;
+    background-color: white;
+    color: black;
+    border: none;
+    margin: auto;
+}
+
+#startbutton:hover{
+    
+background: linear-gradient( to top right, red 50%,orange);
+color: white;
+}
+#but{ 
+    border: 2px solid black;
+
+}
+#buto{
+    background: none;
+    color: white;
+    background-color: #2C3333;
+    border: none;
+    margin: auto;
+    
+}
+.viewbutton{
+    color: white;
+}
+#abutton{
+    color: white;
+}
+#agetbutton{
+    color: black;
+}
+#aviewbutton{
+    color: white;
+}
+
+
+span button >a{
+    color: white;
+}
+#buto:hover{
+    
+background: linear-gradient( to top right, red 50%,orange);
+
+}
+#boton{
+    background: none;
+    border: 2px solid white ;
+    margin: auto;
+    
+}
+
+
+
+
+li{
+    padding-right: 40px ;
+    margin-right: 70px;
+    
+}
+#fontmenu{
+    
+    margin-right: 90px;
+    padding-left: 40px;
+    padding-top: 14px;
+    font-size: large;
+    font-weight: bold;
+}
+#headdiv{
+    height: 450px;
+    width: 100%;
+    background-color:#F9F5EB ;
+}
+#headdiv{
+    background-color: #F9F5EB;
+}
+section{
+    background-color: #F9F5EB;
+}
+ 
+
+div{
+    
+  
+    height:160px;
+    width:240px;
+    padding: 10px;
+    margin-top: 10px;
+    font-family: 'Quicksand', sans-serif;
+    margin-bottom:20px; 
+    margin-right:20px;
+    margin-left:200px;
+    float:left;
+}
+.spanny{
+    width: 100%;
+    height: 450px;
+    background-color: #554994;
+}
+i{
+    text-align: center;
+    margin-bottom: 40px;
+    margin-right: 70px;
+}
+h2{
+    text-align: center;
+}
+
+
+.parag{
+    text-align: center;
+}
+#startbutton{
+    margin: auto;
+}
+.wedo{
+    text-align: center;
+    padding-top: 80px;
+    font-size: 900;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bolder;
+}
+main{
+    width: 100%;
+    height: 500px;
+    background-color: #F9F5EB;
+}
+
+.ways{
+    text-align: center;
+    color: #F9F5EB;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.chooseus{
+    text-align: center;
+    color: #F9F5EB;
+}
+section{
+
+    background-image: url(https://images.pexels.com/photos/1072179/pexels-photo-1072179.jpeg);
+    background-size: cover;
+
+}
+
+ul li > p{
+    text-align: center;
+    color: #F9F5EB;
+}
+
+#mainsec{
+    background-color: #F9F5EB;
+    height: 1300px;
+    width: 100%;
+    
+}
+
+.imgsec{
+    margin-left: 70px;
+    margin-right: 25px;
+    margin-bottom: 60px;
+    
+}
+#buto{
+    text-align: center;
+}
+
+#boxone:hover{
+    box-shadow: 7px 10px 19px pink ,
+                -7px -10px 19px pink;
+
+}
+#boxtwo:hover{
+    box-shadow: 7px 10px 19px  skyblue ,
+               -7px -10px 19px  skyblue ;
+
+
+}
+
+#boxthree:hover{
+    box-shadow: 7px 10px 19px  orange,
+               -7px -10px 19px  orange;
+
+
+}
+#boxfour:hover{
+    box-shadow: 5px 8px 19px  #FF8D29,
+               -5px -8px 17px  #FF8D29;
+
+
+
+}
+
+#boxfive:hover{
+    box-shadow: 5px 8px 19px  lightgreen,
+               -5px -8px 17px  lightgreen;
+
+
+}
+
+#boxsix:hover{
+    box-shadow: 5px 8px 19px  lightpink,
+               -5px -8px 17px  lightpink;
+
+
+
+}
+#mainclient{
+    background-color: #DBDFFD;
+    height:520px;
+    width:100%;
+    padding-top: 80px;
+
+}
+.clients{
+    text-align: center;
+    font-size: 900;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bolder;
+
+}
+#tablee{
+    margin: auto;
+}
+p{
+    font-size: medium;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 200;
+}
+.first{
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bolder;
+    font-size: 4.5em;
+    
+
+}
+.istdiv{
+    text-align: center;
+}
+.firsticon{
+    
+    
+    padding-left: 80px ;
+}
+.para{
+    color: white;
+}
+#recent{
+    text-align: left;
+    margin-left: 80px;
+    margin-top: 20px;
+    font-size: xx-large;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 900;
+}
+#shape{
+    padding-right: 900px;
+    
+}
+#getwork{
+    
+    width: 100%;
+    height: 500px;
+    background-color: rgb(39, 39,39);
+    font-display: flex;
+    justify-content: left;
+    text-align: left;
+
+}
+#inmind{
+
+    font-display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 4.5em;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: skyblue;
+}
+#buton{
+    text-align: center;
+
+}
+span button b > a {
+    color: black;
+    
+
+}
+.pbutton{
+    text-align: center;
+}
+
+footer{
+    height: 700px;
+    width: 100%;
+    background: linear-gradient( to top right, #4F98CA 40%, #42DEE1 );
+    clear: both;
+    padding: 2em;
+    color: white;
+}
+#footer{
+    clear: both;
+}
+#footing{
+    background: linear-gradient( to top right, #4F98CA 40%, #42DEE1 );
+}
+#diving{
+    
+   padding-left:70px ;
+}
+#mobilemenu{
+    display: none;
+}
+
+#boton{
+    margin: auto;
+    text-align: center;
+}
+#mobilemenu{
+    margin-left: 280px;
+}
+*{
+    box-sizing: border-box;
+}
+#social{
+    width: 0;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 1000px ){
+    div{width:100%}
+    body{
+        box-sizing: border-box;
+        height: 8500px;
+        overflow:  ;
+        
+        
+        
+        
+    }
+    *{
+        flex: 100%;
+    }
+    .imgsec{
+        display: block;
+        width: 70%;
+        margin: 50px auto;
+        padding: 0;
+        box-sizing: border-box;
+
+        
+    }
+    #mainsec{
+        height: 3500px;
+    }
+    td{
+        width: 100%;
+
+    }
+    #mainclient{
+        height:550px ;
+    }
+    .istdiv{
+        float: none;
+        width: 35%;
+        margin-bottom: 220px;
+        
+        
+
+
+    }
+    #mobilemenu{
+        display: none;
+
+    }
+    .firsticon , .wedo {
+        
+        padding-left: 65px;
+
+    }
+    main{
+        height: 1600px;
+        text-align: center;
+    }
+    #ullist{
+        display: none;
+    }
+    section{
+        
+    }
+    #getwork{
+        height: 600px;
+    }
+    footer {
+        height: 1250px;
+        width: 100%;
+
+        
+
+    }
+
+    footer div{
+        margin: 0;
+        padding-left: 40px ;
+        
+    }
+    #diving{
+        margin: 0;
+        padding-left: 40px;
+    }
+    .tabledata{
+        width: 100%;
+        display: block;
+        padding-top: 20px;
+    }
+    main, section{
+        overflow: hidden;
+        
+
+    }
+    
+    *{
+        box-sizing: border-box;
+    
+        
+        
+    }
+
+}
